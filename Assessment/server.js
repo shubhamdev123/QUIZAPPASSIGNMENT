@@ -24,7 +24,7 @@ for (const file of quizFileDir) {
 
 //*Mongodb Connection
 const mongodb = require('mongodb').MongoClient;
-const url = "mongodb+srv://sujoyghoshals:sujay2003s@cluster0.8la48tu.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://1174shubham:shubham1174@cluster0.o4zsnx2.mongodb.net/";
 let databaseName;
 let CollectionName;
 mongodb.connect(url).then((result => {
